@@ -47,17 +47,9 @@
 ▓▒░ 0x01 // ARSENAL ░▒▓
 ```
 
-<p align="left">
-<img src="https://img.shields.io/badge/PYTHON-ff00c8?style=for-the-badge&logo=python&logoColor=00fff9&labelColor=0a0014"/>
-<img src="https://img.shields.io/badge/JAVASCRIPT-00fff9?style=for-the-badge&logo=javascript&logoColor=0a0014&labelColor=0a0014"/>
-<img src="https://img.shields.io/badge/JAVA-ff00c8?style=for-the-badge&logo=openjdk&logoColor=00fff9&labelColor=0a0014"/>
-<img src="https://img.shields.io/badge/BASH-00fff9?style=for-the-badge&logo=gnubash&logoColor=0a0014&labelColor=0a0014"/>
-<br>
-<img src="https://img.shields.io/badge/KALI_LINUX-ff00c8?style=for-the-badge&logo=kalilinux&logoColor=00fff9&labelColor=0a0014"/>
-<img src="https://img.shields.io/badge/BURP_SUITE-00fff9?style=for-the-badge&logo=burpsuite&logoColor=0a0014&labelColor=0a0014"/>
-<img src="https://img.shields.io/badge/WIRESHARK-ff00c8?style=for-the-badge&logo=wireshark&logoColor=00fff9&labelColor=0a0014"/>
-<img src="https://img.shields.io/badge/RASPBERRY_PI-00fff9?style=for-the-badge&logo=raspberrypi&logoColor=0a0014&labelColor=0a0014"/>
-</p>
+<div align="center">
+<img src="./assets/arsenal-panel.svg"/>
+</div>
 
 <br>
 
@@ -106,25 +98,9 @@ Face recognition tuned for low-light frames via contrast stretching and adaptive
                                                    
 ```
 
-```
-k1ubi/
-├── offsec/
-│   ├── CTF_WriteUps/                       # HackTheBox boxes, recon to root
-│   ├── proxy_router/                       # Neo-reGeorg tunnel orchestration CLI
-│   └── Kali_Headless/                      # headless wifi-on-boot, dropbox-style
-├── defensive-dev/
-│   ├── SecureWebApp/                       # AES sessions, hashed creds, upload sanitation
-│   └── Java_MVC/                           # login/register MVC skeleton, MySQL
-├── cv-research/
-│   ├── Face_Detection_In_Dark_Conditions/  # CLAHE vs. equalization, low-light detection
-│   └── Low-Light-Face-Recognition/         # automated brightness-gated follow-up
-└── misc-ops/
-    ├── AvalancheTracker/                   # burned fees per block, Avalanche C-Chain
-    ├── Profile-Card-UI-Design/              # glassmorphic profile card, HTML/CSS/JS
-    ├── yt2mp3/                             # youtube-dl wrapper, link -> mp3
-    ├── Windows_Backup-per/                 # robocopy backup script
-    └── Bari_Airport/                       # IT Lab exam project
-```
+<div align="center">
+<img src="./assets/signal-map-panel.svg"/>
+</div>
 
 <br>
 
