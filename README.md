@@ -155,6 +155,11 @@ k1ubi/
 ```
 
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#1](https://github.com/k1ubi/Bari_Airport/pull/1) in [k1ubi/Bari_Airport](https://github.com/k1ubi/Bari_Airport)
+2. 💪 Opened PR [#1](https://github.com/k1ubi/AvalancheTracker/pull/1) in [k1ubi/AvalancheTracker](https://github.com/k1ubi/AvalancheTracker)
+3. 💪 Opened PR [#1](https://github.com/k1ubi/yt2mp3/pull/1) in [k1ubi/yt2mp3](https://github.com/k1ubi/yt2mp3)
+4. 💪 Opened PR [#1](https://github.com/k1ubi/Profile-Card-UI-Design/pull/1) in [k1ubi/Profile-Card-UI-Design](https://github.com/k1ubi/Profile-Card-UI-Design)
+5. 💪 Opened PR [#1](https://github.com/k1ubi/Low-Light-Face-Recognition/pull/1) in [k1ubi/Low-Light-Face-Recognition](https://github.com/k1ubi/Low-Light-Face-Recognition)
 <!--END_SECTION:activity-->
 
 <br>
