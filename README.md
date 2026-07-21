@@ -1,3 +1,5 @@
+<!-- you inspected the source. respect. there's more of this further down. -->
+
 <div align="center">
 
 <img src="./assets/hero-banner.svg" width="100%"/>
@@ -21,19 +23,9 @@
 ▓▒░ 0x00 // BOOT LOG ░▒▓
 ```
 
-```console
-guest@surface:~$ ssh 0xkyubi@neon-district
-Last login: never (this account trusts no one)
-
-root@0xkyubi:~# cat identity.log
-  designation ..... 0xKyubi
-  function ........ breaking things on purpose, then writing them up
-  turf ............. CTF ranges / web app internals / bare-metal Pi tooling
-  current op ....... hunting shells in HackTheBox boxes, hardening what I ship
-  alignment ........ chaotic good, mostly
-
-root@0xkyubi:~# _
-```
+<div align="center">
+<img src="./assets/boot-log-panel.svg"/>
+</div>
 
 <br>
 
@@ -141,10 +133,6 @@ k1ubi/
 ```
 
 <div align="center">
-<img src="https://streak-stats.demolab.com/?user=k1ubi&background=0a0014&border=ff00c8&ring=ff00c8&fire=ff00c8&currStreakLabel=00fff9&sideLabels=00fff9&currStreakNum=00fff9&sideNums=00fff9&dates=8888aa"/>
-</div>
-
-<div align="center">
 <img src="https://raw.githubusercontent.com/k1ubi/k1ubi/output/github-contribution-grid-snake-neon.svg" width="100%"/>
 </div>
 
@@ -164,14 +152,11 @@ k1ubi/
 
 <br>
 
-```
-   ________    ___   __________ ________________________ 
-  / ____/ /   /   | / ___/ ___//  _/ ____/  _/ ____/ __ \
- / /   / /   / /| | \__ \\__ \ / // /_   / // __/ / / / /
-/ /___/ /___/ ___ |___/ /__/ // // __/ _/ // /___/ /_/ / 
-\____/_____/_/  |_/____/____/___/_/   /___/_____/_____/  
-                                                         
-```
+<div align="center">
+<img src="./assets/pikachu-signal.svg"/>
+</div>
+
+<br>
 
 <details>
 <summary>▓▒░ decrypt for classified transmission ░▒▓</summary>
@@ -197,6 +182,22 @@ written for."
 ```
 
 </details>
+
+<details>
+<summary>▓▒░ sudo access request ░▒▓</summary>
+<br>
+
+```
+$ sudo access --profile=0xKyubi
+[sudo] password for guest: ********
+guest is not in the sudoers file. This incident will be reported.
+
+(it will not be reported. there is no one to report it to.)
+```
+
+</details>
+
+<!-- if you found this, you're the target audience: someone who reads before they clone. -->
 
 <br>
 
