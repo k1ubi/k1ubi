@@ -153,7 +153,45 @@ k1ubi/
 <br>
 
 <div align="center">
-<img src="./assets/pikachu-signal.svg"/>
+
+```
+:t;                                          .;%
+ 8:%                                        :%.t
+ X :8:                                     ;X   
+ ;;  8S                                  8@   8 
+  8     %                              :8.      
+  t;    %t                            88    .8  
+         .8.                          :     @   
+            :                       8      8:   
+    SX      @X                    ;       :8    
+     S.      8X                  ;S      .;     
+       .      8%t88St:.  .:;S@8%%X       S      
+       %    :t8:                .8:;    S       
+        ::8@.                       8S.8.       
+        S.                            .@        
+      .@                                S:      
+     :t                                  ;;     
+    :;        S@XXXX        %@XX@X        :;    
+    @        :8:  .t        ;:  :8t        t    
+   t          ttS8%          88SS%          @   
+   @          8 XX S        @.  X;:         t   
+   ;          .    :        S     %          .  
+   :  ;888%   .   :S        :X   S   t888;   :  
+   t 8     X   8  t    %S    :  8   8     8  .  
+   8        %          X           .       ;S   
+   :.X      .       t ;  .SX                t   
+    8.8S  8:         %    X         .8%  8.8    
+     X                                    %.    
+     .8                                  @.     
+       S:                              .@       
+        .8.                           8:        
+          .8t                      ;8:          
+             ;8X;              :X8t             
+                 .%X88@@@@88@%:                 
+```
+
+> *"The quieter you became, the more you are able to hear."*
+
 </div>
 
 <br>
