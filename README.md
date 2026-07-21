@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:0a0014,50:660066,100:ff00c8&section=header" width="100%"/>
+<img src="./assets/hero-banner.svg" width="100%"/>
 
 ```
  _____      _   ____   ___   _______ _____ 
@@ -34,6 +34,20 @@ root@0xkyubi:~# cat identity.log
 
 root@0xkyubi:~# _
 ```
+
+<br>
+
+```
+ ___ ___   _   ___ _  _  ___  ___ _____ ___ ___ ___ 
+|   \_ _| /_\ / __| \| |/ _ \/ __|_   _|_ _/ __/ __|
+| |) | | / _ \ (_ | .` | (_) \__ \ | |  | | (__\__ \
+|___/___/_/ \_\___|_|\_|\___/|___/ |_| |___\___|___/
+                                                    
+```
+
+<div align="center">
+<img src="./assets/diagnostics-panel.svg"/>
+</div>
 
 <br>
 
@@ -93,6 +107,36 @@ Face recognition tuned for low-light frames via contrast stretching and adaptive
 <br>
 
 ```
+   ______________  _____   __     __  ______   ___ 
+  / __/  _/ ___/ |/ / _ | / /    /  |/  / _ | / _ \
+ _\ \_/ // (_ /    / __ |/ /__  / /|_/ / __ |/ ___/
+/___/___/\___/_/|_/_/ |_/____/ /_/  /_/_/ |_/_/    
+                                                   
+```
+
+```
+k1ubi/
+├── offsec/
+│   ├── CTF_WriteUps/                       # HackTheBox boxes, recon to root
+│   ├── proxy_router/                       # Neo-reGeorg tunnel orchestration CLI
+│   └── Kali_Headless/                      # headless wifi-on-boot, dropbox-style
+├── defensive-dev/
+│   ├── SecureWebApp/                       # AES sessions, hashed creds, upload sanitation
+│   └── Java_MVC/                           # login/register MVC skeleton, MySQL
+├── cv-research/
+│   ├── Face_Detection_In_Dark_Conditions/  # CLAHE vs. equalization, low-light detection
+│   └── Low-Light-Face-Recognition/         # automated brightness-gated follow-up
+└── misc-ops/
+    ├── AvalancheTracker/                   # burned fees per block, Avalanche C-Chain
+    ├── Profile-Card-UI-Design/              # glassmorphic profile card, HTML/CSS/JS
+    ├── yt2mp3/                             # youtube-dl wrapper, link -> mp3
+    ├── Windows_Backup-per/                 # robocopy backup script
+    └── Bari_Airport/                       # IT Lab exam project
+```
+
+<br>
+
+```
 ▓▒░ 0x03 // TELEMETRY ░▒▓
 ```
 
@@ -103,6 +147,51 @@ Face recognition tuned for low-light frames via contrast stretching and adaptive
 <div align="center">
 <img src="https://raw.githubusercontent.com/k1ubi/k1ubi/output/github-contribution-grid-snake-neon.svg" width="100%"/>
 </div>
+
+<br>
+
+```
+▓▒░ 0x04 // LIVE SIGNAL ░▒▓
+```
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<br>
+
+```
+   ________    ___   __________ ________________________ 
+  / ____/ /   /   | / ___/ ___//  _/ ____/  _/ ____/ __ \
+ / /   / /   / /| | \__ \\__ \ / // /_   / // __/ / / / /
+/ /___/ /___/ ___ |___/ /__/ // // __/ _/ // /___/ /_/ / 
+\____/_____/_/  |_/____/____/___/_/   /___/_____/_____/  
+                                                         
+```
+
+<details>
+<summary>▓▒░ decrypt for classified transmission ░▒▓</summary>
+<br>
+
+```
+[DECRYPTING...] ██████████████████████████ 100%
+
+log entry #4471:
+"the proxy.json in one of my public repos still has psw: examplepsw
+in it. yes, I know. no, I'm not fixing it — it's a placeholder,
+and also a small tax on anyone who clones the repo without reading
+the README first."
+
+log entry #4472:
+"asked to secure the planet. currently negotiating with a Raspberry
+Pi that reboots itself out of spite."
+
+log entry #4473:
+"if you're reading this in the page source instead of on the
+rendered page: hi. you're the kind of person this profile was
+written for."
+```
+
+</details>
 
 <br>
 
