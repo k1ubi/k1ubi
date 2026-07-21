@@ -130,7 +130,7 @@ Face recognition tuned for low-light frames via contrast stretching and adaptive
 
 <div align="center">
 
-```
+<pre align="center">
                 @.@X   S8.8                
              8X@           S %.            
            X%  @;:8:     .:S  8.           
@@ -162,7 +162,7 @@ X    .     :X                 ;@     .    t
            ;8t;:tX@@   X8X%:;t@%           
           S8@@@@@@t     8@@@@@@@8          
            SS. .t8.      8t. .%@           
-```
+</pre>
 
 > *"The quieter you became, the more you are able to hear."*
 
