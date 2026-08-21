@@ -123,7 +123,7 @@ Face recognition tuned for low-light frames via contrast stretching and adaptive
 ```
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/k1ubi/Bari_Airport/pull/1) in [k1ubi/Bari_Airport](https://github.com/k1ubi/Bari_Airport)
+1. 🎉 Merged PR [#10](https://github.com/agiprolabs/claude-trading-skills/pull/10) in [agiprolabs/claude-trading-skills](https://github.com/agiprolabs/claude-trading-skills)
 2. 🎉 Merged PR [#1](https://github.com/k1ubi/AvalancheTracker/pull/1) in [k1ubi/AvalancheTracker](https://github.com/k1ubi/AvalancheTracker)
 3. 🎉 Merged PR [#1](https://github.com/k1ubi/yt2mp3/pull/1) in [k1ubi/yt2mp3](https://github.com/k1ubi/yt2mp3)
 4. 🎉 Merged PR [#1](https://github.com/k1ubi/Profile-Card-UI-Design/pull/1) in [k1ubi/Profile-Card-UI-Design](https://github.com/k1ubi/Profile-Card-UI-Design)
