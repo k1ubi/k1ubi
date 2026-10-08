@@ -1,69 +1,29 @@
 <!-- you inspected the source. respect. there's more of this further down. -->
 
 <div align="center">
-
-<pre align="center">
- _____      _   ____   ___   _______ _____ 
-|  _  |    | | / /\ \ / / | | | ___ \_   _|
-| |/' |_  _| |/ /  \ V /| | | | |_/ / | |  
-|  /| \ \/ /    \   \ / | | | | ___ \ | |  
-\ |_/ />  <| |\  \  | | | |_| | |_/ /_| |_ 
- \___//_/\_\_| \_/  \_/  \___/\____/ \___/ 
-</pre>
-
+<img src="./assets/hero-banner.svg" width="100%"/>
 </div>
 
-```ansi
-[0;32m>[0m whoami
-[0;97m0xKyubi[0m  [0;90m//[0m  [0;36mred team · hardware · web · ctf[0m
-[0;35m. : . . : <[ BuSy HeLpInG SeCuRiNg ThE pLaNeT ]> : . : .[0m
-status: [0;32mjacked in[0m [0;90m// access granted[0m
+<br>
+
 ```
+▓▒░ 0x00 // BOOT LOG ░▒▓
+```
+
+<img src="./assets/boot-log-panel.svg" width="100%"/>
 
 <br>
 
-```ansi
-[0;35m▓▒░ 0x00 // BOOT LOG ░▒▓[0m
+```
+▓▒░ 0x01 // ARSENAL ░▒▓
 ```
 
-```ansi
-[0;90m[    0.000000][0m kernel: Booting [0;97m0xKyubi-node[0m [0;90m// arch/kali hybrid[0m
-[0;90m[    0.031415][0m net:    lo [0;32mUP[0m :: [0;36m127.0.0.1[0m
-[0;90m[    0.118234][0m net:    tailscale0 [0;32mUP[0m :: [0;36m[mesh][0m
-[0;90m[    0.213847][0m sec:    encrypted channel confirmed — mesh peers visible
-[0;90m[    0.389102][0m sys:    loading offensive-security.manifest ........... [0;32m[OK][0m
-[0;90m[    0.512776][0m svc:    proxy_router.daemon ........................... [0;33m[STANDBY][0m
-[0;90m[    0.634918][0m svc:    ctf_writeups.index ............................ [0;32m[MOUNTED][0m
-[0;90m[    0.712340][0m svc:    p4wnp1.service ............................... [0;32m[READY][0m
-[0;90m[    0.834521][0m svc:    kali_headless.dropbox ........................ [0;33m[STAGED][0m
-[0;90m[    0.911847][0m ui:     CyberArch-Shell ............................. [0;32m[ACTIVE][0m
-[0;90m[    1.024000][0m         [0;35m.: . . : <[ ACCESS GRANTED ]> : . :.[0m
-```
+<img src="./assets/arsenal-panel.svg" width="100%"/>
 
 <br>
 
-```ansi
-[0;35m▓▒░ 0x01 // ARSENAL ░▒▓[0m
 ```
-
-```ansi
-┌──────────────────────────────────────────────────────────────────────┐
-│                                                                      │
-│  [0;36mRECON[0m      ::  nmap · masscan · amass · subfinder · theHarvester    │
-│  [0;31mEXPLOIT[0m    ::  metasploit · burpsuite · sqlmap · hydra · crackmapx  │
-│  [0;33mPOST-EXPL[0m  ::  mimikatz · bloodhound · winpeas · linpeas            │
-│  [0;35mHARDWARE[0m   ::  p4wnp1 · flipper zero · proxmark · hak5 gear        │
-│  [0;33mPIVOT[0m      ::  neo-regeorg · proxychains · chisel · ligolo-ng       │
-│  [0;32mCRAFT[0m      ::  python · bash · go · typescript                      │
-│  [0;90mENVIRON[0m    ::  kali · arch · hyprland · tmux · nvim                 │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
-```
-
-<br>
-
-```ansi
-[0;35m▓▒░ 0x02 // TRANSMISSIONS (featured ops) ░▒▓[0m
+▓▒░ 0x02 // TRANSMISSIONS (featured ops) ░▒▓
 ```
 
 <table>
@@ -99,8 +59,8 @@ Headless Kali dropbox setup for Raspberry Pi — wifi-on-boot, persistent tunnel
 
 <br>
 
-```ansi
-[0;35m▓▒░ 0x03 // LIVE SIGNAL ░▒▓[0m
+```
+▓▒░ 0x03 // LIVE SIGNAL ░▒▓
 ```
 
 <!--START_SECTION:activity-->
