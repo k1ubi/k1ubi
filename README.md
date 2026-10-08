@@ -2,8 +2,6 @@
 
 <div align="center">
 
-<img src="./assets/hero-banner.svg" width="100%"/>
-
 <pre align="center">
  _____      _   ____   ___   _______ _____ 
 |  _  |    | | / /\ \ / / | | | ___ \_   _|
@@ -13,9 +11,14 @@
  \___//_/\_\_| \_/  \_/  \___/\____/ \___/ 
 </pre>
 
-[![typing svg](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=00FFF9&center=true&vCenter=true&width=650&lines=%3E+whoami;0xKyubi+%2F%2F+offensive+security+%2B+builder;.%3A+.+.+%3A+%3C%5B+BuSy+HeLpInG+SeCuRiNg+ThE+pLaNeT+%5D%3E+%3A+.+%3A+.;status%3A+jacked+in+%2F%2F+access+granted)](#)
-
 </div>
+
+```
+> whoami
+0xKyubi  //  offensive security  +  builder
+. : . . : <[ BuSy HeLpInG SeCuRiNg ThE pLaNeT ]> : . : .
+status: jacked in // access granted
+```
 
 <br>
 
@@ -23,9 +26,19 @@
 ▓▒░ 0x00 // BOOT LOG ░▒▓
 ```
 
-<div align="center">
-<img src="./assets/boot-log-panel.svg"/>
-</div>
+```
+[    0.000000] kernel: Booting 0xKyubi-node // arch/kali hybrid
+[    0.031415] net:    lo UP :: 127.0.0.1
+[    0.118234] net:    tailscale0 UP :: 100.82.97.91
+[    0.213847] sec:    encrypted channel confirmed — mesh peers visible
+[    0.389102] sys:    loading offensive-security.manifest ........... [OK]
+[    0.512776] svc:    proxy_router.daemon ........................... [STANDBY]
+[    0.634918] svc:    ctf_writeups.index ............................ [MOUNTED]
+[    0.712340] svc:    p4wnp1.service ............................... [READY]
+[    0.834521] svc:    kali_headless.dropbox ........................ [STAGED]
+[    0.911847] ui:     CyberArch-Shell ............................. [ACTIVE]
+[    1.024000]         .: . . : <[ ACCESS GRANTED ]> : . :.
+```
 
 <br>
 
@@ -35,13 +48,23 @@
 |   \_ _| /_\ / __| \| |/ _ \/ __|_   _|_ _/ __/ __|
 | |) | | / _ \ (_ | .` | (_) \__ \ | |  | | (__\__ \
 |___/___/_/ \_\___|_|\_|\___/|___/ |_| |___\___|___/
-                                                    
 </pre>
 </div>
 
-<div align="center">
-<img src="./assets/diagnostics-panel.svg"/>
-</div>
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│  SKILL MATRIX                                      node: 0xKyubi     │
+├─────────────────────────┬────────────────────────────────────────────┤
+│  Web Application        │  ◆◆◆◆◇  burpsuite · ffuf · sqlmap         │
+│  Network Recon          │  ◆◆◆◆◇  nmap · amass · masscan            │
+│  Post-Exploitation      │  ◆◆◆◇◇  mimikatz · bloodhound             │
+│  Pivoting / Tunneling   │  ◆◆◆◆◆  neo-regeorg · chisel · socat      │
+│  Hardware / Implants    │  ◆◆◆◆◆  p4wnp1 · proxmark · flipper       │
+│  Scripting              │  ◆◆◆◆◆  python · bash · typescript        │
+│  OSINT                  │  ◆◆◆◆◇  maltego · recon-ng · shodan       │
+│  Rev. Engineering       │  ◆◆◆◇◇  ghidra · gdb · pwndbg             │
+└─────────────────────────┴────────────────────────────────────────────┘
+```
 
 <br>
 
@@ -49,9 +72,19 @@
 ▓▒░ 0x01 // ARSENAL ░▒▓
 ```
 
-<div align="center">
-<img src="./assets/arsenal-panel.svg"/>
-</div>
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                                                                      │
+│  RECON      ::  nmap · masscan · amass · subfinder · theHarvester    │
+│  EXPLOIT    ::  metasploit · burpsuite · sqlmap · hydra · crackmapx  │
+│  POST-EXPL  ::  mimikatz · bloodhound · winpeas · linpeas            │
+│  HARDWARE   ::  p4wnp1 · flipper zero · proxmark · hak5 gear        │
+│  PIVOT      ::  neo-regeorg · proxychains · chisel · ligolo-ng       │
+│  CRAFT      ::  python · bash · go · typescript                      │
+│  ENVIRON    ::  kali · arch · hyprland · tmux · nvim                 │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
+```
 
 <br>
 
@@ -98,28 +131,31 @@ Headless Kali dropbox setup for Raspberry Pi — wifi-on-boot, persistent tunnel
   / __/  _/ ___/ |/ / _ | / /    /  |/  / _ | / _ \
  _\ \_/ // (_ /    / __ |/ /__  / /|_/ / __ |/ ___/
 /___/___/\___/_/|_/_/ |_/____/ /_/  /_/_/ |_/_/    
-                                                   
 </pre>
 </div>
 
-<div align="center">
-<img src="./assets/signal-map-panel.svg"/>
-</div>
+```
+                     ┌──────────────────────────────────────┐
+                     │         0xKyubi :: node map           │
+                     └──────────────┬───────────────────────┘
+                                    │
+              ┌─────────────────────┼──────────────────────┐
+              │                     │                      │
+       ┌──────▼──────┐    ┌─────────▼────────┐   ┌────────▼───────┐
+       │  ctf-labs   │    │  vpn / ts-mesh   │   │  drop-nodes    │
+       │  (htb/pvt)  │    │  100.82.97.91    │   │  (kali πs)     │
+       └─────────────┘    └─────────┬────────┘   └────────────────┘
+                                    │
+                          ┌─────────▼────────┐
+                          │  proxy-router    │
+                          │  (socks5 pivots) │
+                          └──────────────────┘
+```
 
 <br>
 
 ```
-▓▒░ 0x03 // TELEMETRY ░▒▓
-```
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/k1ubi/k1ubi/output/github-contribution-grid-snake-neon.svg" width="100%"/>
-</div>
-
-<br>
-
-```
-▓▒░ 0x04 // LIVE SIGNAL ░▒▓
+▓▒░ 0x03 // LIVE SIGNAL ░▒▓
 ```
 
 <!--START_SECTION:activity-->
@@ -206,6 +242,8 @@ guest is not in the sudoers file. This incident will be reported.
 
 `.: . . : <[ end of transmission ]> : . :.`
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:ff00c8,100:0a0014&section=footer"/>
+```
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+```
 
 </div>
