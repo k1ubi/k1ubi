@@ -13,57 +13,57 @@
 
 </div>
 
-```
-> whoami
-0xKyubi  //  red team · hardware · web · ctf
-. : . . : <[ BuSy HeLpInG SeCuRiNg ThE pLaNeT ]> : . : .
-status: jacked in // access granted
-```
-
-<br>
-
-```
-▓▒░ 0x00 // BOOT LOG ░▒▓
-```
-
-```
-[    0.000000] kernel: Booting 0xKyubi-node // arch/kali hybrid
-[    0.031415] net:    lo UP :: 127.0.0.1
-[    0.118234] net:    tailscale0 UP :: [mesh]
-[    0.213847] sec:    encrypted channel confirmed — mesh peers visible
-[    0.389102] sys:    loading offensive-security.manifest ........... [OK]
-[    0.512776] svc:    proxy_router.daemon ........................... [STANDBY]
-[    0.634918] svc:    ctf_writeups.index ............................ [MOUNTED]
-[    0.712340] svc:    p4wnp1.service ............................... [READY]
-[    0.834521] svc:    kali_headless.dropbox ........................ [STAGED]
-[    0.911847] ui:     CyberArch-Shell ............................. [ACTIVE]
-[    1.024000]         .: . . : <[ ACCESS GRANTED ]> : . :.
+```ansi
+[0;32m>[0m whoami
+[0;97m0xKyubi[0m  [0;90m//[0m  [0;36mred team · hardware · web · ctf[0m
+[0;35m. : . . : <[ BuSy HeLpInG SeCuRiNg ThE pLaNeT ]> : . : .[0m
+status: [0;32mjacked in[0m [0;90m// access granted[0m
 ```
 
 <br>
 
-```
-▓▒░ 0x01 // ARSENAL ░▒▓
+```ansi
+[0;35m▓▒░ 0x00 // BOOT LOG ░▒▓[0m
 ```
 
+```ansi
+[0;90m[    0.000000][0m kernel: Booting [0;97m0xKyubi-node[0m [0;90m// arch/kali hybrid[0m
+[0;90m[    0.031415][0m net:    lo [0;32mUP[0m :: [0;36m127.0.0.1[0m
+[0;90m[    0.118234][0m net:    tailscale0 [0;32mUP[0m :: [0;36m[mesh][0m
+[0;90m[    0.213847][0m sec:    encrypted channel confirmed — mesh peers visible
+[0;90m[    0.389102][0m sys:    loading offensive-security.manifest ........... [0;32m[OK][0m
+[0;90m[    0.512776][0m svc:    proxy_router.daemon ........................... [0;33m[STANDBY][0m
+[0;90m[    0.634918][0m svc:    ctf_writeups.index ............................ [0;32m[MOUNTED][0m
+[0;90m[    0.712340][0m svc:    p4wnp1.service ............................... [0;32m[READY][0m
+[0;90m[    0.834521][0m svc:    kali_headless.dropbox ........................ [0;33m[STAGED][0m
+[0;90m[    0.911847][0m ui:     CyberArch-Shell ............................. [0;32m[ACTIVE][0m
+[0;90m[    1.024000][0m         [0;35m.: . . : <[ ACCESS GRANTED ]> : . :.[0m
 ```
+
+<br>
+
+```ansi
+[0;35m▓▒░ 0x01 // ARSENAL ░▒▓[0m
+```
+
+```ansi
 ┌──────────────────────────────────────────────────────────────────────┐
 │                                                                      │
-│  RECON      ::  nmap · masscan · amass · subfinder · theHarvester    │
-│  EXPLOIT    ::  metasploit · burpsuite · sqlmap · hydra · crackmapx  │
-│  POST-EXPL  ::  mimikatz · bloodhound · winpeas · linpeas            │
-│  HARDWARE   ::  p4wnp1 · flipper zero · proxmark · hak5 gear        │
-│  PIVOT      ::  neo-regeorg · proxychains · chisel · ligolo-ng       │
-│  CRAFT      ::  python · bash · go · typescript                      │
-│  ENVIRON    ::  kali · arch · hyprland · tmux · nvim                 │
+│  [0;36mRECON[0m      ::  nmap · masscan · amass · subfinder · theHarvester    │
+│  [0;31mEXPLOIT[0m    ::  metasploit · burpsuite · sqlmap · hydra · crackmapx  │
+│  [0;33mPOST-EXPL[0m  ::  mimikatz · bloodhound · winpeas · linpeas            │
+│  [0;35mHARDWARE[0m   ::  p4wnp1 · flipper zero · proxmark · hak5 gear        │
+│  [0;33mPIVOT[0m      ::  neo-regeorg · proxychains · chisel · ligolo-ng       │
+│  [0;32mCRAFT[0m      ::  python · bash · go · typescript                      │
+│  [0;90mENVIRON[0m    ::  kali · arch · hyprland · tmux · nvim                 │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
 <br>
 
-```
-▓▒░ 0x02 // TRANSMISSIONS (featured ops) ░▒▓
+```ansi
+[0;35m▓▒░ 0x02 // TRANSMISSIONS (featured ops) ░▒▓[0m
 ```
 
 <table>
@@ -99,8 +99,8 @@ Headless Kali dropbox setup for Raspberry Pi — wifi-on-boot, persistent tunnel
 
 <br>
 
-```
-▓▒░ 0x03 // LIVE SIGNAL ░▒▓
+```ansi
+[0;35m▓▒░ 0x03 // LIVE SIGNAL ░▒▓[0m
 ```
 
 <!--START_SECTION:activity-->
