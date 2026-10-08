@@ -77,14 +77,14 @@ Centralizes Neo-reGeorg tunnels into one manifest with a single CLI to raise, ro
 <tr>
 <td width="50%" valign="top">
 
-**[SecureWebApp](https://github.com/k1ubi/SecureWebApp)**
-Java web app built around defensive programming — session handling, hashing, upload sanitation.
+**[p4wnp1e](https://github.com/k1ubi/p4wnp1e)**
+P4wnP1 A.L.O.A. ported to Raspberry Pi 4B — badUSB, HID injection, and rogue AP in a pocket implant.
 
 </td>
 <td width="50%" valign="top">
 
-**[Low-Light-Face-Recognition](https://github.com/k1ubi/Low-Light-Face-Recognition)**
-Face recognition tuned for low-light frames via contrast stretching and adaptive equalization.
+**[Kali_Headless](https://github.com/k1ubi/Kali_Headless)**
+Headless Kali dropbox setup for Raspberry Pi — wifi-on-boot, persistent tunnel-ready config.
 
 </td>
 </tr>
