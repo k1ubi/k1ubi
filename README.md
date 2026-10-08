@@ -15,7 +15,7 @@
 
 ```
 > whoami
-0xKyubi  //  offensive security  +  builder
+0xKyubi  //  red team · hardware · web · ctf
 . : . . : <[ BuSy HeLpInG SeCuRiNg ThE pLaNeT ]> : . : .
 status: jacked in // access granted
 ```
@@ -29,7 +29,7 @@ status: jacked in // access granted
 ```
 [    0.000000] kernel: Booting 0xKyubi-node // arch/kali hybrid
 [    0.031415] net:    lo UP :: 127.0.0.1
-[    0.118234] net:    tailscale0 UP :: 100.82.97.91
+[    0.118234] net:    tailscale0 UP :: [mesh]
 [    0.213847] sec:    encrypted channel confirmed — mesh peers visible
 [    0.389102] sys:    loading offensive-security.manifest ........... [OK]
 [    0.512776] svc:    proxy_router.daemon ........................... [STANDBY]
@@ -38,32 +38,6 @@ status: jacked in // access granted
 [    0.834521] svc:    kali_headless.dropbox ........................ [STAGED]
 [    0.911847] ui:     CyberArch-Shell ............................. [ACTIVE]
 [    1.024000]         .: . . : <[ ACCESS GRANTED ]> : . :.
-```
-
-<br>
-
-<div align="center">
-<pre align="center">
- ___ ___   _   ___ _  _  ___  ___ _____ ___ ___ ___ 
-|   \_ _| /_\ / __| \| |/ _ \/ __|_   _|_ _/ __/ __|
-| |) | | / _ \ (_ | .` | (_) \__ \ | |  | | (__\__ \
-|___/___/_/ \_\___|_|\_|\___/|___/ |_| |___\___|___/
-</pre>
-</div>
-
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│  SKILL MATRIX                                      node: 0xKyubi     │
-├─────────────────────────┬────────────────────────────────────────────┤
-│  Web Application        │  ◆◆◆◆◇  burpsuite · ffuf · sqlmap         │
-│  Network Recon          │  ◆◆◆◆◇  nmap · amass · masscan            │
-│  Post-Exploitation      │  ◆◆◆◇◇  mimikatz · bloodhound             │
-│  Pivoting / Tunneling   │  ◆◆◆◆◆  neo-regeorg · chisel · socat      │
-│  Hardware / Implants    │  ◆◆◆◆◆  p4wnp1 · proxmark · flipper       │
-│  Scripting              │  ◆◆◆◆◆  python · bash · typescript        │
-│  OSINT                  │  ◆◆◆◆◇  maltego · recon-ng · shodan       │
-│  Rev. Engineering       │  ◆◆◆◇◇  ghidra · gdb · pwndbg             │
-└─────────────────────────┴────────────────────────────────────────────┘
 ```
 
 <br>
@@ -125,35 +99,6 @@ Headless Kali dropbox setup for Raspberry Pi — wifi-on-boot, persistent tunnel
 
 <br>
 
-<div align="center">
-<pre align="center">
-   ______________  _____   __     __  ______   ___ 
-  / __/  _/ ___/ |/ / _ | / /    /  |/  / _ | / _ \
- _\ \_/ // (_ /    / __ |/ /__  / /|_/ / __ |/ ___/
-/___/___/\___/_/|_/_/ |_/____/ /_/  /_/_/ |_/_/    
-</pre>
-</div>
-
-```
-                     ┌──────────────────────────────────────┐
-                     │         0xKyubi :: node map           │
-                     └──────────────┬───────────────────────┘
-                                    │
-              ┌─────────────────────┼──────────────────────┐
-              │                     │                      │
-       ┌──────▼──────┐    ┌─────────▼────────┐   ┌────────▼───────┐
-       │  ctf-labs   │    │  vpn / ts-mesh   │   │  drop-nodes    │
-       │  (htb/pvt)  │    │  100.82.97.91    │   │  (kali πs)     │
-       └─────────────┘    └─────────┬────────┘   └────────────────┘
-                                    │
-                          ┌─────────▼────────┐
-                          │  proxy-router    │
-                          │  (socks5 pivots) │
-                          └──────────────────┘
-```
-
-<br>
-
 ```
 ▓▒░ 0x03 // LIVE SIGNAL ░▒▓
 ```
@@ -165,33 +110,6 @@ Headless Kali dropbox setup for Raspberry Pi — wifi-on-boot, persistent tunnel
 4. 🎉 Merged PR [#1](https://github.com/k1ubi/Profile-Card-UI-Design/pull/1) in [k1ubi/Profile-Card-UI-Design](https://github.com/k1ubi/Profile-Card-UI-Design)
 5. 🎉 Merged PR [#1](https://github.com/k1ubi/Low-Light-Face-Recognition/pull/1) in [k1ubi/Low-Light-Face-Recognition](https://github.com/k1ubi/Low-Light-Face-Recognition)
 <!--END_SECTION:activity-->
-
-<br>
-
-<div align="center">
-
-<pre align="center">
-         _nnnn_
-        dGGGGMMb
-       @p~qp~~qMb
-       M|@||@) M|
-       @,----.JM|
-      JS^\__/  qKL
-     dZP        qKRb
-    dZP          qKKb
-   fZP            SMMb
-   HZM            MMMM
-   FqM            MMMM
- __| ".        |\dS"qML
- |    `.       | `' \Zq
-_)      \.___.,|     .'
-\____   )MMMMMP|   .'
-     `-'       `--'
-</pre>
-
-> *"The quieter you became, the more you are able to hear."*
-
-</div>
 
 <br>
 
