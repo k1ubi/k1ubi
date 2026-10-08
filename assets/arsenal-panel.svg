@@ -1,28 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 164" width="660" height="164">
-<defs><linearGradient id="bga" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#0a0014"/><stop offset="1" stop-color="#1a0a2e"/>
-</linearGradient></defs>
-<rect x="1" y="1" width="658" height="162" rx="10" fill="url(#bga)" stroke="#00fff9" stroke-width="1.5" opacity="0.95"/>
-<rect x="1" y="1" width="658" height="34" rx="10" fill="#00fff9" opacity="0.12"/>
-<line x1="1" y1="35" x2="659" y2="35" stroke="#00fff9" stroke-width="1" opacity="0.5"/>
-<circle cx="20" cy="18" r="5" fill="#ff00c8"/>
-<circle cx="38" cy="18" r="5" fill="#00fff9" opacity="0.8"/>
-<circle cx="56" cy="18" r="5" fill="#ff00c8" opacity="0.5"/>
-<text x="330.0" y="23" font-family="Menlo, Consolas, monospace" font-size="13" font-weight="bold" fill="#ff00c8" text-anchor="middle" letter-spacing="2">ARSENAL.SH --list</text>
-<rect x="24.0" y="56.0" width="84.0" height="34" rx="17" fill="none" stroke="#ff00c8" stroke-width="1.6"/>
-<text x="66.0" y="78.0" font-family="Menlo, Consolas, monospace" font-size="13.5" font-weight="bold" fill="#ff00c8" text-anchor="middle">PYTHON</text>
-<rect x="122.0" y="56.0" width="116.0" height="34" rx="17" fill="none" stroke="#00fff9" stroke-width="1.6"/>
-<text x="180.0" y="78.0" font-family="Menlo, Consolas, monospace" font-size="13.5" font-weight="bold" fill="#00fff9" text-anchor="middle">JAVASCRIPT</text>
-<rect x="252.0" y="56.0" width="68.0" height="34" rx="17" fill="none" stroke="#ff00c8" stroke-width="1.6"/>
-<text x="286.0" y="78.0" font-family="Menlo, Consolas, monospace" font-size="13.5" font-weight="bold" fill="#ff00c8" text-anchor="middle">JAVA</text>
-<rect x="334.0" y="56.0" width="68.0" height="34" rx="17" fill="none" stroke="#00fff9" stroke-width="1.6"/>
-<text x="368.0" y="78.0" font-family="Menlo, Consolas, monospace" font-size="13.5" font-weight="bold" fill="#00fff9" text-anchor="middle">BASH</text>
-<rect x="416.0" y="56.0" width="116.0" height="34" rx="17" fill="none" stroke="#ff00c8" stroke-width="1.6"/>
-<text x="474.0" y="78.0" font-family="Menlo, Consolas, monospace" font-size="13.5" font-weight="bold" fill="#ff00c8" text-anchor="middle">KALI LINUX</text>
-<rect x="24.0" y="106.0" width="116.0" height="34" rx="17" fill="none" stroke="#00fff9" stroke-width="1.6"/>
-<text x="82.0" y="128.0" font-family="Menlo, Consolas, monospace" font-size="13.5" font-weight="bold" fill="#00fff9" text-anchor="middle">BURP SUITE</text>
-<rect x="154.0" y="106.0" width="108.0" height="34" rx="17" fill="none" stroke="#ff00c8" stroke-width="1.6"/>
-<text x="208.0" y="128.0" font-family="Menlo, Consolas, monospace" font-size="13.5" font-weight="bold" fill="#ff00c8" text-anchor="middle">WIRESHARK</text>
-<rect x="276.0" y="106.0" width="132.0" height="34" rx="17" fill="none" stroke="#00fff9" stroke-width="1.6"/>
-<text x="342.0" y="128.0" font-family="Menlo, Consolas, monospace" font-size="13.5" font-weight="bold" fill="#00fff9" text-anchor="middle">RASPBERRY PI</text>
+<svg width="100%" viewBox="0 0 800 192" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="glow-xl" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="b1"/>
+    <feGaussianBlur in="SourceGraphic" stdDeviation="3"  result="b2"/>
+    <feMerge><feMergeNode in="b1"/><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glow-sm" x="-10%" y="-10%" width="120%" height="120%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glow-xs" x="-5%" y="-5%" width="110%" height="110%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%"   stop-color="#0D0022"/>
+    <stop offset="55%"  stop-color="#07000F"/>
+    <stop offset="100%" stop-color="#0A001A"/>
+  </linearGradient>
+  <linearGradient id="title-grad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#00FFF9"/>
+    <stop offset="42%"  stop-color="#9B4DFF"/>
+    <stop offset="100%" stop-color="#FF00C8"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.09"/>
+    <stop offset="40%"  stop-color="#FFFFFF" stop-opacity="0.025"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="border-h" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#00FFF9" stop-opacity="0"/>
+    <stop offset="18%"  stop-color="#00FFF9" stop-opacity="0.65"/>
+    <stop offset="50%"  stop-color="#9B4DFF" stop-opacity="0.45"/>
+    <stop offset="82%"  stop-color="#FF00C8" stop-opacity="0.65"/>
+    <stop offset="100%" stop-color="#FF00C8" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="blob-c" cx="25%" cy="50%" r="45%">
+    <stop offset="0%"   stop-color="#00FFF9" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#00FFF9" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="blob-m" cx="75%" cy="50%" r="45%">
+    <stop offset="0%"   stop-color="#FF00C8" stop-opacity="0.07"/>
+    <stop offset="100%" stop-color="#FF00C8" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="blob-p" cx="50%" cy="60%" r="40%">
+    <stop offset="0%"   stop-color="#7B2FFF" stop-opacity="0.10"/>
+    <stop offset="100%" stop-color="#7B2FFF" stop-opacity="0"/>
+  </radialGradient>
+  <style>
+    @keyframes scan {
+      0%   { transform: translateY(-4px); opacity: 0; }
+      8%   { opacity: 0.18; }
+      92%  { opacity: 0.18; }
+      100% { transform: translateY(192px); opacity: 0; }
+    }
+    .scanline { animation: scan 5s linear infinite; }
+  </style>
+</defs>
+
+  <!-- glass base -->
+  <rect width="800" height="192" rx="10" fill="url(#bg)"/>
+  <rect width="800" height="192" rx="10" fill="url(#blob-c)"/>
+  <rect width="800" height="192" rx="10" fill="url(#blob-m)"/>
+  <rect width="800" height="192" rx="10" fill="url(#blob-p)"/>
+  <rect width="800" height="192" rx="10" fill="url(#sheen)"/>
+  <!-- border lines -->
+  <rect width="800" height="1.2" y="0"        fill="url(#border-h)"/>
+  <rect width="800" height="1.2" y="190.8"  fill="url(#border-h)"/>
+  <!-- corner brackets -->
+  <path d="M 18 46 L 18 16 L 48 16" fill="none" stroke="#00FFF9" stroke-width="1.5" stroke-opacity="0.65"/>
+  <path d="M 782 46 L 782 16 L 752 16" fill="none" stroke="#FF00C8" stroke-width="1.5" stroke-opacity="0.65"/>
+  <path d="M 18 146 L 18 176 L 48 176" fill="none" stroke="#00FFF9" stroke-width="1.5" stroke-opacity="0.65"/>
+  <path d="M 782 146 L 782 176 L 752 176" fill="none" stroke="#FF00C8" stroke-width="1.5" stroke-opacity="0.65"/>
+  <!-- scan line -->
+  <rect class="scanline" x="0" y="0" width="800" height="2" rx="1" fill="url(#border-h)" opacity="0"/>
+
+  <text x="24" y="40" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#00FFF9" filter="url(#glow-xs)">RECON     </tspan><tspan fill="#4A4A6A"> :: </tspan><tspan fill="#C8C8C8">nmap · masscan · amass · subfinder · theHarvester</tspan></text>
+  <text x="24" y="62" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#FF4444" filter="url(#glow-xs)">EXPLOIT   </tspan><tspan fill="#4A4A6A"> :: </tspan><tspan fill="#C8C8C8">metasploit · burpsuite · sqlmap · hydra · crackmapx</tspan></text>
+  <text x="24" y="84" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#FFD700" filter="url(#glow-xs)">POST-EXPL </tspan><tspan fill="#4A4A6A"> :: </tspan><tspan fill="#C8C8C8">mimikatz · bloodhound · winpeas · linpeas</tspan></text>
+  <text x="24" y="106" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#FF00C8" filter="url(#glow-xs)">HARDWARE  </tspan><tspan fill="#4A4A6A"> :: </tspan><tspan fill="#C8C8C8">p4wnp1 · flipper zero · proxmark · hak5 gear</tspan></text>
+  <text x="24" y="128" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#FFA040" filter="url(#glow-xs)">PIVOT     </tspan><tspan fill="#4A4A6A"> :: </tspan><tspan fill="#C8C8C8">neo-regeorg · proxychains · chisel · ligolo-ng</tspan></text>
+  <text x="24" y="150" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#00FF7F" filter="url(#glow-xs)">CRAFT     </tspan><tspan fill="#4A4A6A"> :: </tspan><tspan fill="#C8C8C8">python · bash · go · typescript</tspan></text>
+  <text x="24" y="172" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#6A6A8A" filter="url(#glow-xs)">ENVIRON   </tspan><tspan fill="#4A4A6A"> :: </tspan><tspan fill="#C8C8C8">kali · arch · hyprland · tmux · nvim</tspan></text>
 </svg>
