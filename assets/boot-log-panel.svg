@@ -1,88 +1,42 @@
-<svg width="100%" viewBox="0 0 800 228" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 800 218" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <filter id="glow-xl" x="-30%" y="-30%" width="160%" height="160%">
-    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="b1"/>
-    <feGaussianBlur in="SourceGraphic" stdDeviation="3"  result="b2"/>
-    <feMerge><feMergeNode in="b1"/><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="glow-sm" x="-10%" y="-10%" width="120%" height="120%">
-    <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="glow-xs" x="-5%" y="-5%" width="110%" height="110%">
-    <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="b"/>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%"   stop-color="#0D0022"/>
-    <stop offset="55%"  stop-color="#07000F"/>
-    <stop offset="100%" stop-color="#0A001A"/>
+    <stop offset="0%"   stop-color="#0C001F"/>
+    <stop offset="100%" stop-color="#060010"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.055"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#00FFF9" stop-opacity="0"/>
+    <stop offset="25%"  stop-color="#00FFF9" stop-opacity="0.4"/>
+    <stop offset="75%"  stop-color="#9B4DFF" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#FF00C8" stop-opacity="0"/>
   </linearGradient>
   <linearGradient id="title-grad" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%"   stop-color="#00FFF9"/>
-    <stop offset="42%"  stop-color="#9B4DFF"/>
+    <stop offset="50%"  stop-color="#9B4DFF"/>
     <stop offset="100%" stop-color="#FF00C8"/>
   </linearGradient>
-  <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.09"/>
-    <stop offset="40%"  stop-color="#FFFFFF" stop-opacity="0.025"/>
-    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
-  </linearGradient>
-  <linearGradient id="border-h" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%"   stop-color="#00FFF9" stop-opacity="0"/>
-    <stop offset="18%"  stop-color="#00FFF9" stop-opacity="0.65"/>
-    <stop offset="50%"  stop-color="#9B4DFF" stop-opacity="0.45"/>
-    <stop offset="82%"  stop-color="#FF00C8" stop-opacity="0.65"/>
-    <stop offset="100%" stop-color="#FF00C8" stop-opacity="0"/>
-  </linearGradient>
-  <radialGradient id="blob-c" cx="25%" cy="50%" r="45%">
-    <stop offset="0%"   stop-color="#00FFF9" stop-opacity="0.08"/>
-    <stop offset="100%" stop-color="#00FFF9" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="blob-m" cx="75%" cy="50%" r="45%">
-    <stop offset="0%"   stop-color="#FF00C8" stop-opacity="0.07"/>
-    <stop offset="100%" stop-color="#FF00C8" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="blob-p" cx="50%" cy="60%" r="40%">
-    <stop offset="0%"   stop-color="#7B2FFF" stop-opacity="0.10"/>
-    <stop offset="100%" stop-color="#7B2FFF" stop-opacity="0"/>
-  </radialGradient>
-  <style>
-    @keyframes scan {
-      0%   { transform: translateY(-4px); opacity: 0; }
-      8%   { opacity: 0.18; }
-      92%  { opacity: 0.18; }
-      100% { transform: translateY(228px); opacity: 0; }
-    }
-    .scanline { animation: scan 5s linear infinite; }
-  </style>
 </defs>
+  <rect width="800" height="218" rx="8" fill="url(#bg)"/>
+  <rect width="800" height="218" rx="8" fill="url(#sheen)"/>
+  <rect width="800" height="1"   y="0"     fill="url(#border)"/>
+  <rect width="800" height="1"   y="217" fill="url(#border)" opacity="0.3"/>
 
-  <!-- glass base -->
-  <rect width="800" height="228" rx="10" fill="url(#bg)"/>
-  <rect width="800" height="228" rx="10" fill="url(#blob-c)"/>
-  <rect width="800" height="228" rx="10" fill="url(#blob-m)"/>
-  <rect width="800" height="228" rx="10" fill="url(#blob-p)"/>
-  <rect width="800" height="228" rx="10" fill="url(#sheen)"/>
-  <!-- border lines -->
-  <rect width="800" height="1.2" y="0"        fill="url(#border-h)"/>
-  <rect width="800" height="1.2" y="226.8"  fill="url(#border-h)"/>
-  <!-- corner brackets -->
-  <path d="M 18 46 L 18 16 L 48 16" fill="none" stroke="#00FFF9" stroke-width="1.5" stroke-opacity="0.65"/>
-  <path d="M 782 46 L 782 16 L 752 16" fill="none" stroke="#FF00C8" stroke-width="1.5" stroke-opacity="0.65"/>
-  <path d="M 18 182 L 18 212 L 48 212" fill="none" stroke="#00FFF9" stroke-width="1.5" stroke-opacity="0.65"/>
-  <path d="M 782 182 L 782 212 L 752 212" fill="none" stroke="#FF00C8" stroke-width="1.5" stroke-opacity="0.65"/>
-  <!-- scan line -->
-  <rect class="scanline" x="0" y="0" width="800" height="2" rx="1" fill="url(#border-h)" opacity="0"/>
-  <text x="24" y="48" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#4A4A6A">[    0.000000]</tspan><tspan fill="#4A4A6A"> kernel: </tspan><tspan fill="#C8C8C8">Booting </tspan><tspan fill="#00FFF9">0xKyubi-node</tspan><tspan fill="#C8C8C8"> </tspan><tspan fill="#4A4A6A">// arch/kali hybrid</tspan></text>
-  <text x="24" y="66" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#4A4A6A">[    0.031415]</tspan><tspan fill="#4A4A6A"> net:    </tspan><tspan fill="#C8C8C8">lo </tspan><tspan fill="#00FF7F" filter="url(#glow-xs)">UP</tspan><tspan fill="#C8C8C8"> :: </tspan><tspan fill="#00FFF9">127.0.0.1</tspan></text>
-  <text x="24" y="84" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#4A4A6A">[    0.118234]</tspan><tspan fill="#4A4A6A"> net:    </tspan><tspan fill="#C8C8C8">tailscale0 </tspan><tspan fill="#00FF7F" filter="url(#glow-xs)">UP</tspan><tspan fill="#C8C8C8"> :: </tspan><tspan fill="#00FFF9">[mesh]</tspan></text>
-  <text x="24" y="102" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#4A4A6A">[    0.213847]</tspan><tspan fill="#4A4A6A"> sec:    </tspan><tspan fill="#C8C8C8">encrypted channel confirmed — mesh peers visible</tspan></text>
-  <text x="24" y="120" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#4A4A6A">[    0.389102]</tspan><tspan fill="#4A4A6A"> sys:    </tspan><tspan fill="#C8C8C8">loading offensive-security.manifest ........... </tspan><tspan fill="#00FF7F" filter="url(#glow-xs)">[OK]</tspan></text>
-  <text x="24" y="138" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#4A4A6A">[    0.512776]</tspan><tspan fill="#4A4A6A"> svc:    </tspan><tspan fill="#C8C8C8">proxy_router.daemon ........................... </tspan><tspan fill="#FFD700" filter="url(#glow-xs)">[STANDBY]</tspan></text>
-  <text x="24" y="156" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#4A4A6A">[    0.634918]</tspan><tspan fill="#4A4A6A"> svc:    </tspan><tspan fill="#C8C8C8">ctf_writeups.index ............................ </tspan><tspan fill="#00FF7F" filter="url(#glow-xs)">[MOUNTED]</tspan></text>
-  <text x="24" y="174" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#4A4A6A">[    0.712340]</tspan><tspan fill="#4A4A6A"> svc:    </tspan><tspan fill="#C8C8C8">p4wnp1.service ............................... </tspan><tspan fill="#00FF7F" filter="url(#glow-xs)">[READY]</tspan></text>
-  <text x="24" y="192" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#4A4A6A">[    0.834521]</tspan><tspan fill="#4A4A6A"> svc:    </tspan><tspan fill="#C8C8C8">kali_headless.dropbox ........................ </tspan><tspan fill="#FFD700" filter="url(#glow-xs)">[STAGED]</tspan></text>
-  <text x="24" y="210" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#4A4A6A">[    0.911847]</tspan><tspan fill="#4A4A6A"> ui:     </tspan><tspan fill="#C8C8C8">CyberArch-Shell ............................. </tspan><tspan fill="#00FF7F" filter="url(#glow-xs)">[ACTIVE]</tspan></text>
-  <text x="400" y="226" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#FF00C8" filter="url(#glow-xs)">. : . . : &lt;[ ACCESS GRANTED ]&gt; : . :.</tspan></text>
+  <text x="28" y="44" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#3E3E5A">[0.000000]</tspan><tspan fill="#3E3E5A"> kernel </tspan><tspan fill="#B8B8CC">Booting </tspan><tspan fill="#00FFF9">0xKyubi-node</tspan><tspan fill="#3E3E5A"> · arch/kali</tspan></text>
+  <text x="28" y="62" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#3E3E5A">[0.031415]</tspan><tspan fill="#3E3E5A"> net    </tspan><tspan fill="#B8B8CC">lo </tspan><tspan fill="#00E676">UP</tspan><tspan fill="#B8B8CC"> · </tspan><tspan fill="#00FFF9">127.0.0.1</tspan></text>
+  <text x="28" y="80" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#3E3E5A">[0.118234]</tspan><tspan fill="#3E3E5A"> net    </tspan><tspan fill="#B8B8CC">tailscale0 </tspan><tspan fill="#00E676">UP</tspan><tspan fill="#B8B8CC"> · </tspan><tspan fill="#00FFF9">[mesh]</tspan></text>
+  <text x="28" y="98" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#3E3E5A">[0.213847]</tspan><tspan fill="#3E3E5A"> sec    </tspan><tspan fill="#B8B8CC">encrypted channel confirmed</tspan></text>
+  <text x="28" y="116" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#3E3E5A">[0.389102]</tspan><tspan fill="#3E3E5A"> sys    </tspan><tspan fill="#B8B8CC">offensive-security.manifest </tspan><tspan fill="#00E676">OK</tspan></text>
+  <text x="28" y="134" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#3E3E5A">[0.512776]</tspan><tspan fill="#3E3E5A"> svc    </tspan><tspan fill="#B8B8CC">proxy_router </tspan><tspan fill="#FFD54F">STANDBY</tspan></text>
+  <text x="28" y="152" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#3E3E5A">[0.634918]</tspan><tspan fill="#3E3E5A"> svc    </tspan><tspan fill="#B8B8CC">ctf_writeups </tspan><tspan fill="#00E676">MOUNTED</tspan></text>
+  <text x="28" y="170" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#3E3E5A">[0.712340]</tspan><tspan fill="#3E3E5A"> svc    </tspan><tspan fill="#B8B8CC">p4wnp1 </tspan><tspan fill="#00E676">READY</tspan><tspan fill="#B8B8CC">  ·  kali_headless </tspan><tspan fill="#FFD54F">STAGED</tspan></text>
+  <text x="28" y="188" font-family="'Courier New',Courier,monospace" font-size="12"><tspan fill="#3E3E5A">[0.911847]</tspan><tspan fill="#3E3E5A"> ui     </tspan><tspan fill="#B8B8CC">CyberArch-Shell </tspan><tspan fill="#00E676">ACTIVE</tspan></text>
+  <text x="400" y="210" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="11"><tspan fill="#FF00C8">. : . . : &lt;[ ACCESS GRANTED ]&gt; : . : .</tspan></text>
 </svg>
