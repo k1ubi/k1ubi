@@ -26,12 +26,12 @@
 </defs>
   <rect width="800" height="130" rx="8" fill="url(#bg)"/>
   <rect width="800" height="130" rx="8" fill="url(#sheen)"/>
-  <rect width="800" height="1"   y="0"     fill="url(#border)"/>
+  <rect width="800" height="1"   y="0"   fill="url(#border)"/>
   <rect width="800" height="1"   y="129" fill="url(#border)" opacity="0.3"/>
   <text x="400" y="78" text-anchor="middle"
         font-family="'Courier New',Courier,monospace" font-size="50" font-weight="bold"
         fill="url(#title-grad)" filter="url(#glow)">0xKyubi</text>
   <text x="400" y="108" text-anchor="middle"
         font-family="'Courier New',Courier,monospace" font-size="12" letter-spacing="2"
-        fill="#00FFF9" opacity="0.5">red team · hardware · web · ctf</text>
+        fill="#00FFF9" opacity="0.5">AI-augmented ops · red team · hardware · Italy</text>
 </svg>
