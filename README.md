@@ -50,8 +50,8 @@ P4wnP1 A.L.O.A. ported to Raspberry Pi 4B — badUSB, HID injection, and rogue A
 </td>
 <td width="50%" valign="top">
 
-**[Kali_Headless](https://github.com/k1ubi/Kali_Headless)**
-Headless Kali dropbox setup for Raspberry Pi — wifi-on-boot, persistent tunnel-ready config.
+**[malskill](https://github.com/k1ubi/malskill)**
+Offensive AI skill collection for agents — 87 skills covering the full attack chain, from recon to C2 dev.
 
 </td>
 </tr>
