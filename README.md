@@ -1,7 +1,7 @@
 <!-- you inspected the source. respect. there's more of this further down. -->
 
 <div align="center">
-<img src="./assets/hero-banner.svg" width="100%"/>
+<img src="./assets/banner.svg" width="100%"/>
 </div>
 
 <br>
@@ -10,7 +10,7 @@
 ▓▒░ 0x00 // BOOT LOG ░▒▓
 ```
 
-<img src="./assets/boot-log-panel.svg" width="100%"/>
+<img src="./assets/boot.svg" width="100%"/>
 
 <br>
 
@@ -18,7 +18,7 @@
 ▓▒░ 0x01 // ARSENAL ░▒▓
 ```
 
-<img src="./assets/arsenal-panel.svg" width="100%"/>
+<img src="./assets/kit.svg" width="100%"/>
 
 <br>
 
