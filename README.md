@@ -32,10 +32,10 @@ interested in what hides underneath the surface.
 **`// live signal`**
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#10](https://github.com/agiprolabs/claude-trading-skills/pull/10) in [agiprolabs/claude-trading-skills](https://github.com/agiprolabs/claude-trading-skills)
-2. 🎉 Merged PR [#1](https://github.com/k1ubi/AvalancheTracker/pull/1) in [k1ubi/AvalancheTracker](https://github.com/k1ubi/AvalancheTracker)
-3. 🎉 Merged PR [#1](https://github.com/k1ubi/yt2mp3/pull/1) in [k1ubi/yt2mp3](https://github.com/k1ubi/yt2mp3)
-4. 🎉 Merged PR [#1](https://github.com/k1ubi/Profile-Card-UI-Design/pull/1) in [k1ubi/Profile-Card-UI-Design](https://github.com/k1ubi/Profile-Card-UI-Design)
+1. 💪 Opened PR [#5](https://github.com/AeonDave/malskill/pull/5) in [AeonDave/malskill](https://github.com/AeonDave/malskill)
+2. 💪 Opened PR [#4](https://github.com/AeonDave/malskill/pull/4) in [AeonDave/malskill](https://github.com/AeonDave/malskill)
+3. 💪 Opened PR [#3](https://github.com/AeonDave/malskill/pull/3) in [AeonDave/malskill](https://github.com/AeonDave/malskill)
+4. 💪 Opened PR [#2](https://github.com/AeonDave/malskill/pull/2) in [AeonDave/malskill](https://github.com/AeonDave/malskill)
 5. 🎉 Merged PR [#1](https://github.com/k1ubi/Low-Light-Face-Recognition/pull/1) in [k1ubi/Low-Light-Face-Recognition](https://github.com/k1ubi/Low-Light-Face-Recognition)
 <!--END_SECTION:activity-->
 
