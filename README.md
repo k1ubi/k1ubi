@@ -1,67 +1,35 @@
 <!-- you inspected the source. respect. there's more of this further down. -->
 
-<div align="center">
-<img src="./assets/banner.svg" width="100%"/>
-</div>
-
-<br>
-
 ```
-▓▒░ 0x00 // BOOT LOG ░▒▓
-```
+0xkyubi@lab ~ $ whoami
+──────────────────────────────────────────────────────────────────
+0xKyubi
 
-<img src="./assets/boot.svg" width="100%"/>
-
-<br>
-
-```
-▓▒░ 0x01 // ARSENAL ░▒▓
+security researcher. building things, breaking things.
+interested in what hides underneath the surface.
 ```
 
-<img src="./assets/kit.svg" width="100%"/>
-
-<br>
+**`// interests`**
 
 ```
-▓▒░ 0x02 // TRANSMISSIONS (featured ops) ░▒▓
+▸ vulnerability research & exploit development
+▸ OSINT and open-source intelligence tooling
+▸ OS internals & virtualization
+▸ reverse engineering & binary analysis
+▸ network security & infrastructure
 ```
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**`// projects`**
 
-**[CTF_WriteUps](https://github.com/k1ubi/CTF_WriteUps)**
-HackTheBox boxes torn down and documented — recon to root, every pivot logged.
+| | repo | desc |
+|---|---|---|
+| `01` | [proxy_router](https://github.com/k1ubi/proxy_router) | Neo-reGeorg tunnel CLI — list, route, and kill tunnels from one manifest |
+| `02` | [CTF_WriteUps](https://github.com/k1ubi/CTF_WriteUps) | HackTheBox writeups — recon to root, every pivot logged |
+| `03` | [GlowinPunk](https://github.com/k1ubi/GlowinPunk) | GNOME 46 cyberpunk rice — neon-on-black, glass panels |
+| `04` | [Polar](https://github.com/k1ubi/Polar) | modular algo-trading system with swappable strategy cores |
+| `05` | [Low-Light-Face-Recognition](https://github.com/k1ubi/Low-Light-Face-Recognition) | brightness-gated low-light face recognition |
 
-</td>
-<td width="50%" valign="top">
-
-**[proxy_router](https://github.com/k1ubi/proxy_router)**
-Centralizes Neo-reGeorg tunnels into one manifest with a single CLI to raise, route, and kill them.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[p4wnp1e](https://github.com/k1ubi/p4wnp1e)**
-P4wnP1 A.L.O.A. ported to Raspberry Pi 4B — badUSB, HID injection, and rogue AP in a pocket implant.
-
-</td>
-<td width="50%" valign="top">
-
-**[malskill](https://github.com/k1ubi/malskill)**
-Offensive AI skill collection for agents — 87 skills covering the full attack chain, from recon to C2 dev.
-
-</td>
-</tr>
-</table>
-
-<br>
-
-```
-▓▒░ 0x03 // LIVE SIGNAL ░▒▓
-```
+**`// live signal`**
 
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#10](https://github.com/agiprolabs/claude-trading-skills/pull/10) in [agiprolabs/claude-trading-skills](https://github.com/agiprolabs/claude-trading-skills)
@@ -70,8 +38,6 @@ Offensive AI skill collection for agents — 87 skills covering the full attack 
 4. 🎉 Merged PR [#1](https://github.com/k1ubi/Profile-Card-UI-Design/pull/1) in [k1ubi/Profile-Card-UI-Design](https://github.com/k1ubi/Profile-Card-UI-Design)
 5. 🎉 Merged PR [#1](https://github.com/k1ubi/Low-Light-Face-Recognition/pull/1) in [k1ubi/Low-Light-Face-Recognition](https://github.com/k1ubi/Low-Light-Face-Recognition)
 <!--END_SECTION:activity-->
-
-<br>
 
 <details>
 <summary>▓▒░ decrypt for classified transmission ░▒▓</summary>
@@ -112,16 +78,8 @@ guest is not in the sudoers file. This incident will be reported.
 
 </details>
 
-<!-- if you found this, you're the target audience: someone who reads before they clone. -->
-
 <br>
-
-<div align="center">
 
 `.: . . : <[ end of transmission ]> : . :.`
 
-```
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-```
-
-</div>
+<!-- if you found this, you're the target audience: someone who reads before they clone. -->
